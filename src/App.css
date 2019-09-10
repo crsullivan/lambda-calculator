@@ -21,9 +21,38 @@
     font-size: 5.0rem;
   }
 
+  .special_container {
+      width:85%;
+      margin-left:10%;
+  }
+  
+  .num_container {
+      width:85%;
+      margin-left:10%;
+  }
+  
+  .operator_container {
+      width: 20%;
+      margin-right: 0;
+  }
+
+  .number_button, .operator_button, .special_button {
+      border: 1px solid black;
+      border-radius:50%;
+      width:70px;
+      height: 70px;
+      margin: 5px;
+      font-size: 30px;
+  }
+
   .number_button {
-      height:20px;
-      width:50px;
-      color:white;
+      background-color:blue;
+  }
+
+  .operator_button {
+      background-color: dodgerblue;
+  }
+  
+  .special_button {
       background-color:blue;
   }
