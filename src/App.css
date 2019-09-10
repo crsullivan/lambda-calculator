@@ -20,3 +20,10 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  .number_button {
+      height:20px;
+      width:50px;
+      color:white;
+      background-color:blue;
+  }
