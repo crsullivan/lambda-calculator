@@ -1,5 +1,4 @@
 import React from "react";
-// import {Numbers} from "./Numbers"
 
 export const NumberButton = props => {
   return (
@@ -7,7 +6,7 @@ export const NumberButton = props => {
   
       
       {/* Display a button element rendering the data being passed down from the parent container on props */ 
-      <button>{props.button}</button>
+      <button className="number_button">{props.numbers}</button>
       }
      
        </>

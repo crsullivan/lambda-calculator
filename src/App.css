@@ -17,36 +17,52 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-right: 8%;
+    margin-left: 8%;
     font-size: 5.0rem;
+    margin-bottom:5%;
   }
 
   .special_container {
       width:85%;
-      margin-left:10%;
+      margin-left:7%;
+      
   }
   
   .num_container {
-      width:85%;
-      margin-left:10%;
+      width:65%;
+      margin-left:7%;
+      size:120px;      
+      justify-content:space-evenly;
+
+  }
+  .number_button:nth-child(10) {
+      width:185px;
+      border-radius:40%;
+
   }
   
   .operator_container {
-      width: 20%;
-      margin-right: 0;
+      width: 10%;
+      margin-left: 22%;
+      margin-top:-27%;
+      position:absolute;
+
   }
 
   .number_button, .operator_button, .special_button {
       border: 1px solid black;
       border-radius:50%;
-      width:70px;
-      height: 70px;
-      margin: 5px;
+      width:80px;
+      height: 80px;
+      margin: 5px 10px;
       font-size: 30px;
+      color:white;
+      
   }
 
   .number_button {
       background-color:blue;
+      margin-left:4.5%;
   }
 
   .operator_button {
@@ -54,5 +70,11 @@
   }
   
   .special_button {
-      background-color:blue;
+      background-color:royalblue;
+      margin-left:3.5%;
+
   }
+.logo-container {
+    margin-top:8%;
+    margin-left:8%;
+}
